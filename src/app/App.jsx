@@ -1,10 +1,12 @@
 import './App.css'
+import DashboardOverviewPage from "../pages/DashboardOverviewPage/DashboardOverviewPage";
+
 
 function App() {
 
   return (
     <>
-      <h1>SmartBiz</h1>
+      <DashboardOverviewPage />
     </>
   )
 }

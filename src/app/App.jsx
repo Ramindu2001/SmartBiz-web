@@ -3,6 +3,7 @@ import DashboardOverviewPage from "../pages/DashboardOverviewPage/DashboardOverv
 import CustomerSupplierManagementPage from '../pages/CustomerSupplierManagementPage/CustomerSupplierManagementPage';
 import ProductStockManagementPage from '../pages/ProductStockManagementPage/ProductStockManagementPage';
 import SalesInvoiceManagementPage from '../pages/SalesInvoiceManagementPage/SalesInvoiceManagementPage';
+import ReportsAnalyticsPage from '../pages/ReportsAnalyticsPage/ReportsAnalyticsPage';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <DashboardOverviewPage /> */}
       {/* <CustomerSupplierManagementPage /> */}
       {/* <ProductStockManagementPage /> */}
-      <SalesInvoiceManagementPage />
+      {/* <SalesInvoiceManagementPage /> */}
+      <ReportsAnalyticsPage />
     </>
   )
 }
